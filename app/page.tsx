@@ -170,7 +170,7 @@ export default function TMREventPage() {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-3 text-white text-2xl">
                     <Users className="w-8 h-8 text-red-400" />
-                    募集要項
+                    卒業生スタッフ募集要項
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-8">
@@ -203,21 +203,54 @@ export default function TMREventPage() {
                   </div>
                   <div className="p-8">
                     <h3 className="text-2xl font-bold mb-6 text-white">応募方法</h3>
-                    <p className="text-slate-200 mb-6 text-lg">下記の応募フォームからお申し込みください</p>
-                    <Button
-                      className="w-full bg-red-600 hover:bg-red-700 text-white text-xl py-4 rounded-none font-bold tracking-wide"
-                      asChild
-                    >
-                      <a
-                        href="https://forms.office.com/r/ake6RNsAbn"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-3"
+                    <p className="text-slate-200 mb-6 text-lg">下記のフォームからお申し込みください</p>
+                    
+                    <div className="space-y-4">
+                      <Button
+                        className="w-full bg-blue-600 hover:bg-blue-700 text-white text-lg py-4 rounded-none font-bold tracking-wide"
+                        asChild
                       >
-                        応募フォームへ
-                        <ExternalLink className="w-5 h-5" />
-                      </a>
-                    </Button>
+                        <a
+                          href="https://forms.office.com/r/tn3hLGFJtS"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-center gap-3"
+                        >
+                          学生選手エントリー
+                          <ExternalLink className="w-5 h-5" />
+                        </a>
+                      </Button>
+                      
+                      <Button
+                        className="w-full bg-red-600 hover:bg-red-700 text-white text-lg py-4 rounded-none font-bold tracking-wide"
+                        asChild
+                      >
+                        <a
+                          href="https://forms.office.com/r/ake6RNsAbn"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-center gap-3"
+                        >
+                          卒業生スタッフエントリー
+                          <ExternalLink className="w-5 h-5" />
+                        </a>
+                      </Button>
+                      
+                      <Button
+                        className="w-full bg-green-600 hover:bg-green-700 text-white text-lg py-4 rounded-none font-bold tracking-wide"
+                        asChild
+                      >
+                        <a
+                          href="https://forms.office.com/r/30u5iLAWCc"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center justify-center gap-3"
+                        >
+                          在校生スタッフエントリー
+                          <ExternalLink className="w-5 h-5" />
+                        </a>
+                      </Button>
+                    </div>
                   </div>
                 </CardContent>
               </Card>
@@ -285,15 +318,23 @@ export default function TMREventPage() {
                     <Mail className="w-6 h-6 text-red-400" />
                     <span>elt@toyoiryo.ac.jp</span>
                   </div>
-                  <div className="flex justify-center mt-8">
-                    <a href="https://lin.ee/uT1ayDI" target="_blank" rel="noopener noreferrer">
-                      <img
-                        src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"
-                        alt="絆命会公式ライン"
-                        height="36"
-                        className="border-0 hover:scale-110 transition-transform duration-200"
-                      />
-                    </a>
+                  <div className="mt-8">
+                    <p className="text-center text-white text-lg font-semibold mb-4">
+                      救急救命士学科同窓会　絆命会公式LINE
+                    </p>
+                    <div className="flex justify-center">
+                      <a href="https://lin.ee/uT1ayDI" target="_blank" rel="noopener noreferrer">
+                        <img
+                          src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"
+                          alt="絆命会公式ライン"
+                          height="36"
+                          className="border-0 hover:scale-110 transition-transform duration-200"
+                        />
+                      </a>
+                    </div>
+                    <p className="text-center text-slate-300 text-sm mt-3">
+                      ※在校生は追加できません
+                    </p>
                   </div>
                 </div>
               </CardContent>
