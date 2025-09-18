@@ -29,7 +29,7 @@ export default function TMREventPage() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
 
           <div className="absolute top-8 left-1/2 transform -translate-x-1/2 z-10">
-            <div className="text-white text-xl sm:text-2xl md:text-3xl font-light tracking-widest opacity-90 text-center">
+            <div className="text-white text-lg sm:text-xl md:text-2xl lg:text-3xl font-light tracking-wide opacity-90 text-center whitespace-nowrap">
               救命技術を磨き続けろ
             </div>
           </div>
