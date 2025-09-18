@@ -347,11 +347,11 @@ export default function TMREventPage() {
                         </div>
                         <div className="flex justify-center mb-2">
                           <a href="https://hanmeikai.vercel.app/" target="_blank" rel="noopener noreferrer">
-                            <img
-                              src="/placeholder-logo.png"
-                              alt="絆命会ホームページ"
-                              className="w-32 h-32 object-contain rounded shadow-lg hover:scale-105 transition-transform duration-200"
-                            />
+                              <img
+                                src="/kizunakai-homepage.png"
+                                alt="絆命会ホームページ"
+                                className="w-32 h-32 object-contain rounded shadow-lg hover:scale-105 transition-transform duration-200"
+                              />
                           </a>
                         </div>
                       </div>
