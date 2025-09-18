@@ -28,11 +28,9 @@ export default function TMREventPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
 
-          <div className="absolute left-8 top-1/2 transform -translate-y-1/2 z-10">
-            <div className="writing-mode-vertical text-white text-2xl md:text-3xl font-light tracking-widest opacity-90">
-              救命技術を
-              <br />
-              磨き続けろ
+          <div className="absolute top-8 left-1/2 transform -translate-x-1/2 z-10">
+            <div className="text-white text-xl sm:text-2xl md:text-3xl font-light tracking-widest opacity-90 text-center">
+              救命技術を磨き続けろ
             </div>
           </div>
 
