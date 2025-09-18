@@ -317,22 +317,45 @@ export default function TMREventPage() {
                     <span>elt@toyoiryo.ac.jp</span>
                   </div>
                   <div className="mt-8">
-                    <p className="text-center text-white text-lg font-semibold mb-4">
-                      救急救命士学科同窓会　絆命会公式LINE
-                    </p>
-                    <div className="flex justify-center">
-                      <a href="https://lin.ee/uT1ayDI" target="_blank" rel="noopener noreferrer">
-                        <img
-                          src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"
-                          alt="絆命会公式ライン"
-                          height="36"
-                          className="border-0 hover:scale-110 transition-transform duration-200"
-                        />
-                      </a>
+                    <div className="flex flex-col sm:flex-row gap-8 justify-center items-stretch">
+                      {/* LINE公式 */}
+                      <div className="flex-1 bg-black/30 rounded-lg p-6 flex flex-col items-center justify-between">
+                        <div>
+                          <p className="text-center text-white text-lg font-semibold mb-2 whitespace-pre-line">
+                            救急救命士学科同窓会
+                            <br />公式LINE
+                          </p>
+                        </div>
+                        <div className="flex justify-center mb-2">
+                          <a href="https://lin.ee/uT1ayDI" target="_blank" rel="noopener noreferrer">
+                            <img
+                              src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"
+                              alt="絆命会公式ライン"
+                              height="36"
+                              className="border-0 hover:scale-110 transition-transform duration-200"
+                            />
+                          </a>
+                        </div>
+                        <p className="text-center text-slate-300 text-sm mt-1">
+                          ※在校生は追加できません
+                        </p>
+                      </div>
+                      {/* ホームページ */}
+                      <div className="flex-1 bg-black/30 rounded-lg p-6 flex flex-col items-center justify-between">
+                        <div>
+                          <p className="text-center text-white text-lg font-semibold mb-2">ホームページ</p>
+                        </div>
+                        <div className="flex justify-center mb-2">
+                          <a href="https://hanmeikai.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <img
+                              src="/placeholder-logo.png"
+                              alt="絆命会ホームページ"
+                              className="w-32 h-32 object-contain rounded shadow-lg hover:scale-105 transition-transform duration-200"
+                            />
+                          </a>
+                        </div>
+                      </div>
                     </div>
-                    <p className="text-center text-slate-300 text-sm mt-3">
-                      ※在校生は追加できません
-                    </p>
                   </div>
                 </div>
               </CardContent>
