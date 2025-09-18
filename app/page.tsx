@@ -46,29 +46,29 @@ export default function TMREventPage() {
             </div>
 
             <div className="mb-8">
-              <h1 className="text-8xl md:text-9xl font-black mb-2 tracking-wider">
+              <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-black mb-2 tracking-wider">
                 <span className="text-white">T</span>
                 <span className="text-red-500 text-shadow-lg">MR</span>
               </h1>
-              <div className="text-lg md:text-xl tracking-[0.3em] text-white/90 font-light">TOYO MEDICAL RALLY</div>
+              <div className="text-base sm:text-lg md:text-xl tracking-[0.3em] text-white/90 font-light">TOYO MEDICAL RALLY</div>
             </div>
 
-            <h2 className="text-4xl md:text-6xl font-bold mb-8 text-white tracking-wide">東洋メディカルラリー</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-8 text-white tracking-wide">東洋メディカルラリー</h2>
 
-            <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-12 text-xl">
-              <div className="flex items-center gap-3 text-white bg-black/30 px-6 py-3 rounded-lg backdrop-blur-sm">
-                <Calendar className="w-6 h-6 text-red-400" />
-                <span className="font-semibold">11月3日（月・祝）</span>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 mb-12 text-lg sm:text-xl">
+              <div className="flex items-center gap-3 text-white bg-black/30 px-4 sm:px-6 py-3 rounded-lg backdrop-blur-sm">
+                <Calendar className="w-5 h-5 sm:w-6 sm:h-6 text-red-400" />
+                <span className="font-semibold text-sm sm:text-base">11月3日（月・祝）</span>
               </div>
-              <div className="flex items-center gap-3 text-white bg-black/30 px-6 py-3 rounded-lg backdrop-blur-sm">
-                <Clock className="w-6 h-6 text-red-400" />
-                <span className="font-semibold">競技START 10:00〜</span>
+              <div className="flex items-center gap-3 text-white bg-black/30 px-4 sm:px-6 py-3 rounded-lg backdrop-blur-sm">
+                <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-red-400" />
+                <span className="font-semibold text-sm sm:text-base">競技START 10:00〜</span>
               </div>
             </div>
 
             <Button
               size="lg"
-              className="bg-red-600 hover:bg-red-700 text-white text-xl px-12 py-6 rounded-none font-bold tracking-wide shadow-2xl"
+              className="bg-red-600 hover:bg-red-700 text-white text-lg sm:text-xl px-8 sm:px-12 py-4 sm:py-6 rounded-none font-bold tracking-wide shadow-2xl"
             >
               今すぐ応募する
             </Button>
@@ -94,9 +94,9 @@ export default function TMREventPage() {
 
             <Card className="mb-16 bg-slate-900/50 border-slate-700 backdrop-blur-sm">
               <CardContent className="p-12">
-                <p className="text-xl leading-relaxed text-slate-200 text-center">
+                <p className="text-lg sm:text-xl leading-relaxed text-slate-200 text-center break-words">
                   TOYOメディカルラリーは、在校生対象のメディカルラリーで、期生を越えた卒業生の交流の場を設け、様々な情報交換の機会を作る目的と、学生の救命技術及びモチベーションの向上と、医療現場で活躍する卒業生の方々との交流を目的に
-                  <span className="font-bold text-red-400 text-2xl">2017年より開催</span>しております。
+                  <span className="font-bold text-red-400 text-xl sm:text-2xl">2017年より開催</span>しております。
                 </p>
               </CardContent>
             </Card>
@@ -112,9 +112,9 @@ export default function TMREventPage() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   </div>
-                  <div className="p-8">
-                    <h3 className="text-2xl font-bold mb-4 text-white">実践的な救命技術訓練</h3>
-                    <p className="text-slate-300 text-lg">現場さながらの緊迫した環境での救命技術向上を目指します。</p>
+                  <div className="p-6 sm:p-8">
+                    <h3 className="text-xl sm:text-2xl font-bold mb-4 text-white">実践的な救命技術訓練</h3>
+                    <p className="text-slate-300 text-base sm:text-lg break-words">現場さながらの緊迫した環境での救命技術向上を目指します。</p>
                   </div>
                 </CardContent>
               </Card>
@@ -129,9 +129,9 @@ export default function TMREventPage() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   </div>
-                  <div className="p-8">
-                    <h3 className="text-2xl font-bold mb-4 text-white">プロフェッショナルとの交流</h3>
-                    <p className="text-slate-300 text-lg">医療現場で活躍する卒業生との貴重な交流機会です。</p>
+                  <div className="p-6 sm:p-8">
+                    <h3 className="text-xl sm:text-2xl font-bold mb-4 text-white">プロフェッショナルとの交流</h3>
+                    <p className="text-slate-300 text-base sm:text-lg break-words">医療現場で活躍する卒業生との貴重な交流機会です。</p>
                   </div>
                 </CardContent>
               </Card>
@@ -162,7 +162,7 @@ export default function TMREventPage() {
                   className="w-20 h-20 drop-shadow-lg"
                 />
               </div>
-              <p className="text-2xl text-white font-light tracking-wide">評価者・運営スタッフの募集</p>
+              <p className="text-xl sm:text-2xl text-white font-light tracking-wide">評価者・運営スタッフの募集</p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 mb-16">
@@ -174,14 +174,14 @@ export default function TMREventPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="p-8">
-                  <div className="space-y-6">
+                  <div className="space-y-4 sm:space-y-6">
                     <div className="flex justify-between items-center">
-                      <span className="font-semibold text-white text-xl">募集人数</span>
-                      <Badge className="bg-red-600 text-white text-xl px-6 py-2 rounded-none">約30名</Badge>
+                      <span className="font-semibold text-white text-lg sm:text-xl">募集人数</span>
+                      <Badge className="bg-red-600 text-white text-lg sm:text-xl px-4 sm:px-6 py-2 rounded-none">約30名</Badge>
                     </div>
-                    <div className="border-t border-slate-600 pt-6">
-                      <h4 className="font-bold mb-4 text-white text-xl">待遇・特典</h4>
-                      <ul className="space-y-3 text-slate-200 text-lg">
+                    <div className="border-t border-slate-600 pt-4 sm:pt-6">
+                      <h4 className="font-bold mb-4 text-white text-lg sm:text-xl">待遇・特典</h4>
+                      <ul className="space-y-3 text-slate-200 text-base sm:text-lg">
                         <li>• 交通費支給（移動距離で変動、最高15,000円）</li>
                         <li>• 昼食あり</li>
                         <li>• 懇親会あり</li>
@@ -201,13 +201,13 @@ export default function TMREventPage() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   </div>
-                  <div className="p-8">
-                    <h3 className="text-2xl font-bold mb-6 text-white">応募方法</h3>
-                    <p className="text-slate-200 mb-6 text-lg">下記のフォームからお申し込みください</p>
+                  <div className="p-6 sm:p-8">
+                    <h3 className="text-xl sm:text-2xl font-bold mb-6 text-white">応募方法</h3>
+                    <p className="text-slate-200 mb-6 text-base sm:text-lg break-words">下記のフォームからお申し込みください</p>
                     
                     <div className="space-y-4">
                       <Button
-                        className="w-full bg-blue-600 hover:bg-blue-700 text-white text-lg py-4 rounded-none font-bold tracking-wide"
+                        className="w-full bg-blue-600 hover:bg-blue-700 text-white text-base sm:text-lg py-3 sm:py-4 rounded-none font-bold tracking-wide"
                         asChild
                       >
                         <a
@@ -217,12 +217,12 @@ export default function TMREventPage() {
                           className="flex items-center justify-center gap-3"
                         >
                           学生選手エントリー
-                          <ExternalLink className="w-5 h-5" />
+                          <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5" />
                         </a>
                       </Button>
                       
                       <Button
-                        className="w-full bg-red-600 hover:bg-red-700 text-white text-lg py-4 rounded-none font-bold tracking-wide"
+                        className="w-full bg-red-600 hover:bg-red-700 text-white text-base sm:text-lg py-3 sm:py-4 rounded-none font-bold tracking-wide"
                         asChild
                       >
                         <a
@@ -232,12 +232,12 @@ export default function TMREventPage() {
                           className="flex items-center justify-center gap-3"
                         >
                           卒業生スタッフエントリー
-                          <ExternalLink className="w-5 h-5" />
+                          <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5" />
                         </a>
                       </Button>
                       
                       <Button
-                        className="w-full bg-green-600 hover:bg-green-700 text-white text-lg py-4 rounded-none font-bold tracking-wide"
+                        className="w-full bg-green-600 hover:bg-green-700 text-white text-base sm:text-lg py-3 sm:py-4 rounded-none font-bold tracking-wide"
                         asChild
                       >
                         <a
@@ -247,7 +247,7 @@ export default function TMREventPage() {
                           className="flex items-center justify-center gap-3"
                         >
                           在校生スタッフエントリー
-                          <ExternalLink className="w-5 h-5" />
+                          <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5" />
                         </a>
                       </Button>
                     </div>
@@ -304,18 +304,18 @@ export default function TMREventPage() {
 
             <Card className="bg-slate-900/70 border-slate-700 backdrop-blur-sm">
               <CardContent className="p-12">
-                <h3 className="text-3xl font-bold mb-8 text-white">東洋医療専門学校 救急救命士学科</h3>
-                <div className="space-y-6 text-xl">
-                  <div className="flex items-center justify-center gap-4 text-slate-200">
-                    <MapPin className="w-6 h-6 text-red-400" />
-                    <span>大阪府大阪市淀川区西宮原1-5-35</span>
+                <h3 className="text-2xl sm:text-3xl font-bold mb-8 text-white">東洋医療専門学校 救急救命士学科</h3>
+                <div className="space-y-4 sm:space-y-6 text-lg sm:text-xl">
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-slate-200">
+                    <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-red-400" />
+                    <span className="text-center sm:text-left break-words">大阪府大阪市淀川区西宮原1-5-35</span>
                   </div>
                   <div className="flex items-center justify-center gap-4 text-slate-200">
-                    <Phone className="w-6 h-6 text-red-400" />
+                    <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-red-400" />
                     <span>06-6398-2255</span>
                   </div>
                   <div className="flex items-center justify-center gap-4 text-slate-200">
-                    <Mail className="w-6 h-6 text-red-400" />
+                    <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-red-400" />
                     <span>elt@toyoiryo.ac.jp</span>
                   </div>
                   <div className="mt-8">
@@ -352,11 +352,11 @@ export default function TMREventPage() {
                 className="w-16 h-16 opacity-80"
               />
             </div>
-            <p className="text-2xl font-bold mb-4 tracking-wide">TMR 東洋メディカルラリー 2025</p>
+            <p className="text-xl sm:text-2xl font-bold mb-4 tracking-wide">TMR 東洋メディカルラリー 2025</p>
             <div className="w-16 h-0.5 bg-red-500 mx-auto mb-6"></div>
-            <p className="text-lg opacity-90 mb-2">主催：東洋医療専門学校　救急救命士学科　同窓会「絆命会」</p>
-            <p className="text-lg opacity-90 mb-2">主幹：TMR 東洋メディカルラリー 実行委員会</p>
-            <p className="text-base opacity-70">東洋医療専門学校 救急救命士学科</p>
+            <p className="text-base sm:text-lg opacity-90 mb-2 break-words">主催：東洋医療専門学校　救急救命士学科　同窓会「絆命会」</p>
+            <p className="text-base sm:text-lg opacity-90 mb-2 break-words">主幹：TMR 東洋メディカルラリー 実行委員会</p>
+            <p className="text-sm sm:text-base opacity-70 break-words">東洋医療専門学校 救急救命士学科</p>
           </div>
         </footer>
       </div>
